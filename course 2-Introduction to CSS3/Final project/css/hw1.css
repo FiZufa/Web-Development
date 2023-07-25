@@ -1,0 +1,79 @@
+header{
+	background-image: url("../images/flywheel.jpg");
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #FFFFFF;
+}
+header nav a{
+	text-align: center;
+	padding: 10px 100px 10px 100px;
+	text-decoration: none;
+	border: #000000 solid;
+	border-radius: 20px;
+	background-color: rgb(224,255,255);
+	opacity: 0.3;
+}
+header nav a:hover{
+	opacity: 1.0;
+}
+header nav a.active{
+	opacity: 1.0;
+}
+header nav a.focus{
+	opacity: 1.0;
+}
+
+.left img{
+	display: block;
+	height: 150px;
+	width: 220px;
+	margin: 10px 70px 10px 70px;
+	border: #000000 solid;
+}
+.left{
+	float: left;
+	background-color: rgb(64, 224, 208);
+}
+.right{
+	float: right;
+}
+
+table{
+	height: 400px;
+	width: 850px;
+}
+table th{
+	background-color: rgb(0,128,128);
+	text-align: center;
+	border: rgb(176,224,230) 1px;
+}
+table tr td{
+	background-color: rgb(224,255,255);
+	border: rgb(176,224,230) 1px;
+	margin-left: 3px;
+	opacity: 0.6;
+}
+table tr td:hover{
+	opacity: 1.0;
+}
+table tr:last-child{
+	-webkit-border-radius:25px 25px 0 0;
+	border-radius: 0 0 25px 25px;
+}
+table tr:first-child>th:first-child{
+	-webkit-border-radius: 15px 0 0 0;
+	border-radius: 15px 0 0 0;
+}
+table tr:first-child>th:last-child{
+	-webkit-border-radius: 0 15px 0 0;
+	border-radius: 0 15px 0 0;
+}
+table tr:last-child>td:first-child{
+	-webkit-border-radius: 0 0 0 15px;
+	border-radius: 0 0 0 15px;
+}
+table tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 15px 0;
+	border-radius: 0 0 15px 0;
+}
